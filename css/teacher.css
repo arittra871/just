@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors, Gradients and font-sizes Are Here */
+  --lawngreenyello: liner-gradient(to right, lawngreen, yellow);
+  --redbluegradient: liner-gradient(to right, red, blue);
+  --redpinkgradient: liner-gradient(to right, red, pink);
+  --pinktolightpink: liner-gradient(to right, #ffafcc, #bde0fe);
+  --lightgreentolightblue: liner-gradient(to right, #76c893, #168aad);
+  --crimsoncolor: crimson;
+  --royalbluecolor: royalblue;
+  --lightsegreen: lightgreen;
+  --black: black;
+  --white: #fff;
+  --lawngreen: lawngreen;
+}
+span{
+   color: crimson;
+}
+
+::-webkit-scrollbar{
+   width: 10px;
+ }
+ 
+ ::-webkit-scrollbar-track{
+ background-color: transparent;
+ }
+ 
+ ::-webkit-scrollbar-thumb{
+   background-color: var(--royalbluecolor);
+   border: 2px solid transparent;
+   border-radius: 50px;
+ }
+ 
+ #preloder{
+   width: 100%;
+   height: 100vh;
+   background:fixed #fff url(/img/preloder1.gif) no-repeat center;
+   z-index: 100;
+ }
+
+/* Roy */
+.logo{
+   height: 3.5em;
+ }
+ 
+ .navbar {
+   transition: all 0.5s ease-out;
+   --bs-navbar-nav-link-padding-x: 1rem;
+ }
+
+ .section-padding{
+   padding-top: 120px;
+ }
+
+
+ .border-hover{
+   transition: all 0.5s ease-out;
+   border: 2px solid transparent;
+ }
+
+.border-hover:hover{
+   border: 1px solid var(--crimsoncolor);
+}
+
+ .teacher-head{
+   height: 280px;
+ }
+
+ .teacher-img{
+   height: 100%;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .object-position{
+   object-position: top;
+ }
+
+ .social a{
+   font-size: 1.2em;
+   color: var(--royalbluecolor);
+   transition: all 0.5s ease-in;
+ }
+ 
+ .social a:hover{
+   color: var(--crimsoncolor);
+ }
+
+ .footer{
+   padding-top: 80px;
+ }
+ 
+ .map{
+   height: 300px;
+   width: 300px;
+ }
+
+/* end  */
+
+#main {
+  width: 100%;
+}
+.main2{
+   width: 100%;
+   background-image: url("https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+   background-size: cover;
+   background-attachment: fixed;
+   background-blend-mode: darken;
+   background-color: rgba(0,0,0,0.6);
+}
+.main-header {
+  height: 100vh;
+}
+.main-text {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-header .main-text h1 {
+  font-size: 6.5rem;
+  font-weight: 700;
+  transition: all 0.3s linear;
+}
+.main-header .main-text h1:hover {
+  transform: translateY(-5px);
+}
+.main-header .main-para{
+   width: 100%;
+   color: #fff;
+   height: calc( 100vh - 120px );
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url("/img/kkkkkkkk.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-blend-mode: darken;
+   background-color: rgba(0,0,0,0.3);
+}
+.main-header .main-para h3{
+   font-size: 6rem;
+   font-weight: 700;
+}
+.main-header .main-para p{
+   font-weight: 500;
+}
+/* bangla work is hreer */
+.bangla-1{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.bangla-1 .box-1 {
+   width: 45%;
+   height: 90%;
+   background-color: #fff;
+}
+.bangla-1 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.bangla-1 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.bangla-1 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.bangla-1 .box-2 h3{
+   font-size: 2rem;
+}
+/* starts 2nd */
+.bangla-2{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.bangla-2 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.bangla-2 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.bangla-2 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.bangla-2 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.bangla-2 .box-2 h3{
+   font-size: 2rem;
+}
+/* start3 */
+.bangla-3{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.bangla-3 .box-1 {
+   width: 45%;
+   height: 90%;
+   background-color: #fff;
+}
+.bangla-3 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.bangla-3 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.bangla-3 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.bangla-3 .box-2 h3{
+   font-size: 2rem;
+}
+/* starts 4 */
+.bangla-4{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.bangla-4 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.bangla-4 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.bangla-4 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.bangla-4 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.bangla-4 .box-2 h3{
+   font-size: 2rem;
+}
+/* stray 5 */
+.bangla-5{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.bangla-5 .box-1 {
+   width: 45%;
+   height: 90%;
+   background-color: #fff;
+}
+.bangla-5 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.bangla-5 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.bangla-5 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.bangla-5 .box-2 h3{
+   font-size: 2rem;
+}
+/* english 1 ? */
+.english-1{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.english-1 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.english-1 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.english-1 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.english-1 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.english-1 .box-2 h3{
+   font-size: 2rem;
+}
+/* english 2 */
+.english-2{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.english-2 .box-1 {
+   width: 45%;
+   height: 90%;
+   background-color: #fff;
+}
+.english-2 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.english-2 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.english-2 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.english-2 .box-2 h3{
+   font-size: 2rem;
+}
+/* .english-3 */
+.english-3{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.english-3 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.english-3 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.english-3 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.english-3 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.english-3 .box-2 h3{
+   font-size: 2rem;
+}
+/* english 4 */
+.english-4{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.english-4 .box-1 {
+   width: 45%;
+   height: 90%;
+   background-color: #fff;
+}
+.english-4 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.english-4 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.english-4 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.english-4 .box-2 h3{
+   font-size: 2rem;
+}
+
+/* english 5 */
+.english-5{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.english-5 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.english-5 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.english-5 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.english-5 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.english-5 .box-2 h3{
+   font-size: 2rem;
+}
+/* math */
+/* math 1 ? */
+.math-1{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.math-1 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.math-1 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.math-1 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.math-1 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.math-1 .box-2 h3{
+   font-size: 2rem;
+}
+/* math 2 */
+.math-2{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.math-2 .box-1 {
+   width: 45%;
+   height: 90%;
+   background-color: #fff;
+}
+.math-2 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.math-2 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.math-2 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.math-2 .box-2 h3{
+   font-size: 2rem;
+}
+/* math-3 */
+.math-3{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.math-3 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.math-3 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.math-3 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.math-3 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.math-3 .box-2 h3{
+   font-size: 2rem;
+}
+/* math 4 */
+.math-4{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.math-4 .box-1 {
+   width: 45%;
+   height: 90%;
+   background-color: #fff;
+}
+.math-4 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.math-4 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.math-4 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.math-4 .box-2 h3{
+   font-size: 2rem;
+}
+
+/* math 5 */
+.math-5{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4.5rem;
+}
+.math-5 .box-1 {
+   width: 45%;
+   height: 90%;
+   order: 2;
+   background-color: #fff;
+}
+.math-5 .box-1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.math-5 .box-2{
+   width: 45%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #dadada;
+}
+.math-5 .box-2 h1{
+   font-size: 5rem;
+   font-weight: 700;
+}
+.math-5 .box-2 h3{
+   font-size: 2rem;
+}
